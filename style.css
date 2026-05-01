@@ -1,0 +1,435 @@
+* {
+    margin: 0px;
+    padding: 0px;
+
+}
+body{
+    font-family: Roboto;
+
+}
+.container{
+    width:85%;
+    margin: 0 auto;
+}
+.blackBox {
+    width: 100vw;
+    height: 10vh;
+    background-color: black;
+    
+}
+
+.grideClass{
+    display: grid;
+    grid-template-columns: 2fr 3fr 5fr;
+    padding: 20px 0px;
+
+}
+.mainIconBox{
+    display: grid;
+    justify-items: right;
+    
+}
+.iconBox{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    width: 50%;
+    align-items: center;
+    justify-items: right;
+}
+.mainNavbar{
+    display: grid;
+    justify-items: center;
+    align-items: center;
+    cursor: pointer;
+    
+}
+.navbar{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    width: 90%;
+    column-gap: 24px;
+    font-size: 120%;
+
+}
+.navbar a{
+    color: black;
+    text-decoration: none;
+
+
+}
+.navbar a:hover{
+    color: red;
+
+}
+.coverImg {
+    height: 100vh;
+    background-image: url("https://websitedemos.net/clothing-store-04/wp-content/uploads/sites/1538/2025/05/home-hero-bg.jpg");
+    
+    background-size: cover;
+    padding-inline: 0px;
+    
+
+}
+
+.coverImg h1 {
+    font-size: 45px;
+    color: white;
+    font-weight: bold;
+    line-height: 1.2;
+    text-align: center;
+   
+    
+
+    
+}
+
+.coverImg p {
+    font-size: 18px;
+    color: #ddd;
+    margin:  300px;
+    text-align: center;
+
+}
+
+
+.coverShades {
+    height: 100vh;
+    width: 100%;
+    background: linear-gradient(121deg,rgba(28, 27, 27, 0.88) 0%, rgba(28, 27, 27, 0.88) 10%, rgba(28, 27, 27, 0.88) 20%, rgba(28, 27, 27, 0.88) 30%, rgba(28, 27, 27, 0.88) 40%, rgba(28, 27, 27, 0.88) 50%, rgba(28, 27, 27, 0.88) 60%, rgba(28, 27, 27, 0.88) 70%, rgba(28, 27, 27, 0.88) 80%, rgba(28, 27, 27, 0.88) 90%, rgba(28, 27, 27, 0.88) 100%);
+    max-width: 1600px;
+    text-align: center;
+    
+
+}
+ .newArrivals{
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+
+
+}
+.newArrivals h1{
+    line-height: 70px;
+}
+.newButton button{
+    border: solid 1px red;
+    background: transparent;
+    padding: 20px 32px ;
+    border-radius: 30px;
+    color: red;
+}
+.newButton button:hover{
+    background-color: red;
+    color: white;
+    cursor: pointer;
+
+}
+.mainNewButton{
+    display: grid;
+    justify-items: right;
+    align-items: center;
+}
+.row {
+    width: 100%;
+    padding: 50px 0px ;
+    background-color: #f7ebed;
+    
+    
+    
+}
+.heading2 h1 {
+    text-align: center;
+    color: #333;
+    background-color: #f7ebed;
+    font-size: 38px;
+}
+.para {
+    text-align: center;
+    color: #333;
+    background-color: #f7ebed;
+    font-size: 16px;
+    padding: 20px 0px;
+}
+
+.container {
+    width: 90%;
+    margin: auto; 
+}
+
+.Photo {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.photoMain {
+    display: grid;
+    justify-items: center;
+    border-radius: 10px;
+    width: 45%;
+}
+.photoImg img {
+    height: 350px;
+    border: solid 2px black;
+    border-radius: 35px;
+    display: grid;
+    
+}
+.PhotoTitle {
+    border-radius: 20px;
+    width: 80%;
+    height: 100px;
+    background-color: white;
+    display: grid;
+    align-items: center;
+    text-align: center;
+    transform: translate(0px,-50px);
+}
+.PhotoTitle a {
+    text-decoration: none;
+    color: red;
+cursor: pointer;
+}
+.PhotoTitle a:hover {
+    color: black;
+}
+
+
+.left-content1 h1 {
+    font-size: 40px;
+    font-family: sans-serif;
+}
+.left-content1 p {
+    font-size: 16px;
+     margin-top: 10px;
+    font-family: Roboto;
+}
+
+.product-container {
+    display: flex;
+    gap: 25px;
+    justify-content: center;
+}
+
+.product-card {
+    width: 280px;
+    background: #fff;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    position: relative;
+}
+
+.product-card img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.badge {
+    position: absolute;
+    left: 15px;
+    top: 15px;
+    background: red;
+    color: #fff;
+    padding: 5px 12px;
+    font-size: 14px;
+    border-radius: 20px;
+}
+
+h2 {
+    margin: 10px 0 5px;
+    font-size: 20px;
+}
+
+.category {
+    color: gray;
+    font-size: 14px;
+}
+
+.price {
+    font-size: 18px;
+    font-weight: bold;
+    margin: 8px 0;
+}
+
+.sizes span {
+ border: 1px solid #ccc;
+    padding: 5px 10px;
+    margin-right: 5px;
+    border-radius: 5px;
+    font-size: 14px;
+}
+
+.colors {
+    margin-top: 10px;
+}
+
+.color {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+margin-right: 5px;
+}
+.c1 { background: #4b4ba1; }
+.c2 { background: #a5c88b; }
+.c3 { background: #6b6b6b; }
+
+.bigImg {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 80%;
+    
+}
+
+.left img {
+    width: 174%;
+    height: 100vh;
+    object-fit: cover;
+}
+
+.right {
+    width: 80%;
+    display: flex;
+    justify-content: center;
+}
+.card {
+    background: #ffffff;
+    padding: 40px;
+    width: 130%;
+    height: 50vh;
+    border-radius: 20px;
+    box-shadow: 0px 4px 20px rgba(0,0,0,0.1);
+    
+}
+
+.card h2 {
+    font-size: 26px;
+    margin-bottom: 15px;
+    font-weight: 700;
+    font: bold;
+}
+
+.card p {
+    font-size: 17px;
+    color: #555;
+    margin-bottom: 25px;
+    line-height: 1.6;
+    font-family: Roboto;
+}
+
+.shop-btn {
+    background: #dc2626;
+    padding: 14px 25px;
+    border: none;
+    color: #ffffff;
+    font-size: 15px;
+    cursor: pointer;
+    border-radius: 30px;
+    transition: 0.3s;
+}
+.shop-btn:hover {
+    background: #ff5533;
+}
+
+/* bigimg1*/
+
+.hero {
+    position: relative;
+    width: 100%;
+    height: 140vh;
+    background: url('https://websitedemos.net/clothing-store-04/wp-content/uploads/sites/1538/2025/05/counter-bg.jpg') center/cover no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+   
+}
+
+/* Dark overlay */
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0,0.5);
+}
+
+.content {
+    position: relative;
+    z-index: 2;
+    max-width: 700px;
+    
+}
+
+h1 {
+    font-size: 46px;
+    font-weight: bold;
+    margin:auto;
+}
+
+p {
+    margin-bottom: 20px;
+    font-size: 16px;
+}
+/* TIMER STYLING */
+.timer {
+    display: flex;
+    gap: 15px;
+    justify-content: center;
+    margin-bottom: 25px;
+}
+
+.box {
+    background: white;
+    color: black;
+    padding: 15px 20px;
+    border-radius: 10px;
+    text-align: center;
+    min-width: 80px;
+}
+
+.box h2 {
+    font-size: 2rem;
+    margin-bottom: 5px;
+}
+
+.box span {
+    font-size: 0.8rem;
+    font-weight: bold;
+}
+
+/* BUTTON */
+.btn1 {
+    background: #ff5a4d;
+    color: white;
+    border: none;
+    padding: 15px 30px;
+    font-size: 1rem;
+    border-radius: 30px;
+    cursor: pointer;
+}
+
+.btn1:hover {
+    background:  #ff3e30;
+}
+
+/* End Coundown Img*/
+.shopper {
+    text-align: center;
+    margin: 10%;
+}
+.shopper h2 {
+    font-size: 35px;
+     
+}
+.shopper p {
+    font-size: 16px;
+
+}
+
+
+
+
+
+
